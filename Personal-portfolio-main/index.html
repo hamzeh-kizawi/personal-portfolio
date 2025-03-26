@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamzeh Kizawi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton|Pacifico|Dancing+Script|Great+Vibes|Lobster|Playball|Shadows+Into+Light|Amatic+SC&display=swap">
+<link rel="shortcut icon" href="assets/crown-2.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <section class="home container" id="home">
+            <div class="left-section-container">
+                <div class="logo">
+                    <img src="assets/crown-2.jpg">
+                    <p class="logo-name">Hamzeh Kizawi</p>
+                </div>
+                <h1>Be Creative, Be Impressive</h1>
+                <h3>Creative Designer and Full stack Developer</h3>
+                <p class="hideOnMobile2">Fun fact, this picture is not me, the AI promised this is what I'd look like in 10 years, but for now, I'm just coding myself into my future shape. Let's hope debugging doesn't involve any mirrors!</p>
+                <p class="showOnMobile">I like to craft solid and scalable frontend products with great user experience.</p>
+                <div class="left-section-buttons">
+                    <button onclick="window.open('./assets/My-CV.pdf')">Resume</button>
+                    <button class="contact-button">
+                        <a href="mailto:Hamzeh.kizawi11@e-uvt.ro">Contact</a>
+                    </button>
+                </div>
+            </div>
+            <div class="right-section-home">
+                <div class="right-section-container">
+                    <div class="right-section-header">
+                        <ul>
+                            <li class="hideOnMobile"><a href="#home">Home</a></s></li>
+                            <li class="hideOnMobile"><a href="#about">About</a></li>
+                            <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+                            <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+                            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" fill="white"/></svg></a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar">
+                        <ul>
+                            <li onclick=closeSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                            <li><a href="#home">Home</a></s></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="img-container">
+                        <img class="right-section-img" src="assets/AI-pic-2.webp">
+                    </div>
+                </div>
+                <div class="right-section-about">
+                    <p>Hamzeh Kizawi</p>
+                    <p>Full stack Developer. IT assistant.</p>
+                </div>
+                <!-- <div id="tooltip">
+                    <span id="tooltipText">this is a secret message, You should hire this guy.</span>
+                </div> -->
+            </div>
+    </section>
+    <section class="about container" id="about">
+        <div class="about-top-section">
+            <div class="about-me-container">
+                <h1>About me</h1>
+                <p> I'm Hamzeh, a computer science enthusiast who navigates the maze of coding challenges with a keyboard in one hand and a cup of coffee in the other.</p>
+                <p>My principle in my current jurney is "when life throws you errors, sometimes all you need is a good punchline to fix everything".</p>
+            </div>
+            <div class="about-me-picture">
+                <img src="assets/code-kid.webp">
+            </div>
+        </div>
+        <div class="about-buttom-section">
+            <img src="my-pictures/pic-1.jpeg">
+            <img src="my-pictures/pic-2.jpg">
+            <img class="hideOnMobile2" src="assets/programming.jpeg">
+            <img class="hideOnMobile" src="my-pictures/pic-3.jpg">
+            <img class="hideOnMobile" src="assets/coffee-2.jpg">
+        </div>
+        <div class="about-skills-container">
+            <div class="frontend-skills">
+                <h4>Frontend</h4>
+                <p>CSS</p>
+                <p>HTML</p>
+                <p>Javascript</p>
+                <p>React</p>
+                <p>Responsive Design</p> 
+            </div>
+            <div class="stat-circle hideOnMobile2">
+                <div class="label">
+                    <span class="frontend">Frontend</span>
+                    <span class="backend">Backend</span>
+                </div>
+             </div>
+            <div class="backend-skills">
+                <h4>Backend</h4>
+                <p>python</p>
+                <p>Java</p>
+                <p>RESTful API's</p>
+                <p>Database / MySQL</p>
+                <p>GIT/GIThub</p>
+            </div>
+        </div>
+        <div class="random-info-container">
+            <div class="random-info-img">
+                <img src="my-pictures/smily-me.jpg">
+            </div>            
+            <div class="random-info-texts">
+                <p>Random stuff about me</p>
+                <ul>
+                    <li>I play Piano</li>
+                    <li>I am a good chef</li>
+                    <li>I travel a lot</li>
+                    <li>I speak 4 languages</li>
+                    <li>I can't wake up without coffee</li>
+                    <li>I smile 24h a day</li>
+                    <li>I love socializing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="projects container" id="projects">
+        <div class="skills_head">
+            <h2>Projects</h2>
+            <p>While there is only a couple of projects here, I encourage you to check my <a href="https://github.com/hamzeh-kizawi"><span><img src="assets/github.png" alt="GitHub Logo"> GitHub</span></a> repositories. There you will have access to all my projects including the source code.</p>
+        </div>
+        <div class="projects-list">
+            <div class="projects-1">
+                <img class="project-img" src="assets/Shoes-shop.png">
+                <div class="project-info">
+                    <h3 class="project-name">Shoes Shop</h3>
+                    <p class="project-description">A recent project of mine, It's a custom desgin, it's hosted so feel free to try it.</p>
+                    <div class="project-btns">
+                        <button class="btn btn-color-1" onclick="location.href='https://github.com/hamzeh-kizawi/render-flask-shoes-website'">Github</button>
+                        <button class="btn btn-color-2" onclick="location.href='https://render-flask-shoes-website.onrender.com'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-1">
+                <video class="project-video" src="assets/cars-project-vid.mp4" controls></video>
+                <div class="project-info">
+                    <h3 class="project-name">Cars Application</h3>
+                    <p class="project-description">This is my graduation project built using React. While the project is still in progress and not yet hosted, I strongly encourage you to watch the short video. It will provide a better understanding of the project and offer insights into it's current state.</p>
+                    <div class="project-btns">    
+                        <button class="btn btn-color-2" onclick="playVideo()">Play Video</button>
+                        <button class="btn btn-color-1" onclick="location.href='https://github.com/hamzeh-kizawi/React-car-website'">Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact container" id="contact">
+        <div class="contact-container">
+            <h2>Contact</h2>
+            <p>I really appreciate the time and effort you've put into reviewing my projects and skills. Whether the response to my application is positive or negative, I am interested to hear back from you. Please feel free to contact me via email at <a href="mailto:Hamzeh.kizawi11@e-uvt.ro" class="email-link">Hamzeh.kizawi11@e-uvt.ro</a>.</p>
+        </div>
+        <h2>Or</h2>
+        <span>Contact me directly from here:</span>
+    </section>
+    <section class="contact-form container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                
+            </div>
+            <input type="hidden" name="access_key" value="2e1a2fc3-137a-48b5-9c91-e01cb402a5f6">
+            <input type="text" name="name" placeholder="Your Name / Company " class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit >>></button>
+        </form>
+        <div class="contact-right">
+                <img src="assets/collaboration-picture.webp">
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
